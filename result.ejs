@@ -1,0 +1,8 @@
+<h1>This is the Result Page!</h1>
+<% for (var i = 0; i < 10; i++){%>
+    <ul>
+        <li>
+            <strong><%= data["Search"][i]["Title"]%></strong> - <%= data["Search"][i]["Year"]%>
+        </li>    
+    </ul>
+<% } %>
